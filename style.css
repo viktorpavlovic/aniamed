@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-image {
+  width: 100%;
+  background-image: url("Img/background.png");
+  height: 1020px;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .header-image {
+    background-image: url(Img/background-mobile.png);
+  }
+}
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 198px;
+  height: 54px;
+  background-color: #008aff;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.mailbox-icon {
+  margin-right: 15px;
+}
