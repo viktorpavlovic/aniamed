@@ -4,6 +4,7 @@
 }
 
 .header-image {
+  position: relative;
   width: 100%;
   background-image: url("Img/background.png");
   height: 1020px;
@@ -13,6 +14,30 @@
   .header-image {
     background-image: url(Img/background-mobile.png);
   }
+}
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 198px;
+  height: 54px;
+  margin-top: 50px;
+}
+.content-and-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 291px;
+  justify-content: space-between;
 }
 .contact-button {
   display: flex;
@@ -27,7 +52,99 @@
   border: none;
   color: white;
   font-weight: 700;
+  margin-top: 50px;
 }
 .mailbox-icon {
   margin-right: 15px;
+}
+.menu-button {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 62px;
+  height: 54px;
+  margin-top: 50px;
+  border: none;
+}
+
+.menu-icon {
+  margin: 0 auto;
+}
+.line {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid white;
+  opacity: 0.3;
+}
+
+.first-page-title {
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 722px;
+  height: 135px;
+  color: #ffffff;
+  font: normal normal bold 57px/67px Barlow;
+}
+
+.side-text-row {
+  height: 81px;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+.first-page-text {
+  margin: 0 auto;
+  padding-top: 24px;
+  width: 576px;
+  height: 81px;
+  color: #ffffff;
+  font: normal normal normal 20px/28px Barlow;
+  opacity: 0.85;
+}
+
+.about-button {
+  display: flex;
+  margin-left: 345px;
+  margin-right: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+  width: 259px;
+  height: 54px;
+  background-color: #008aff;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  font-weight: 700px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+.about-icon {
+  margin-right: 20px;
+}
+
+.side-text {
+  transform: rotate(270deg);
+  font: 300;
+  color: white;
+  margin-bottom: auto;
+}
+.app-play-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+}
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
