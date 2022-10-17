@@ -370,4 +370,89 @@
   padding-left: 59px;
   padding-right: 59px;
   padding-top: 24px;
+  font: normal normal normal 20px/28px Barlow;
+}
+.box-icon {
+  padding-right: 59px;
+  padding-top: 54px;
+  padding-left: 59px;
+  width: 25px;
+  height: 7px;
+}
+
+.visit-content {
+  width: 100%;
+  max-width: 1200px;
+  height: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.visit-title {
+  width: 900px;
+  height: 135px;
+  margin-top: 160px;
+  font: normal normal bold 57px/67px Barlow;
+}
+.news-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 41px;
+  width: 221px;
+  height: 54px;
+  justify-content: center;
+  background-color: #008aff;
+  font-size: 700;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.first-middle-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 544px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.doctor-img {
+  width: 576px;
+  height: 300px;
+}
+.date {
+  width: 49px;
+  height: 68px;
+  font: normal normal bold 57px/67px Barlow;
+}
+.month-and-year {
+  width: 73px;
+  height: 34px;
+  font: normal normal bold 14px/17px Barlow;
+}
+
+.first-middle-text {
+  width: 576px;
+  height: 82px;
+  font: normal normal bold 32px/44px Barlow;
+}
+.second-middle-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 544px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.baby-img {
+  width: 576px;
+  height: 300px;
+}
+.second-middle-title-text {
+  display: flex;
+  flex-direction: column;
 }
