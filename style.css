@@ -4,7 +4,6 @@
 }
 
 .header-image {
-  position: relative;
   width: 100%;
   background-image: url("Img/background.png");
   height: 1020px;
@@ -79,7 +78,7 @@
 }
 
 .first-page-title {
-  margin-top: 250px;
+  margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
   width: 722px;
@@ -110,7 +109,7 @@
 
 .about-button {
   display: flex;
-  margin-left: 345px;
+  margin-left: 348px;
   margin-right: auto;
   flex-direction: row;
   align-items: center;
@@ -127,7 +126,7 @@
   border-radius: 5px;
   border: none;
 }
-.about-icon {
+.about-and-learn-icon {
   margin-right: 20px;
 }
 
@@ -141,10 +140,234 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 180px;
+  margin-top: 280px;
 }
-.content {
+/* .content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+} */
+
+.page-one {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 126px;
+}
+.page-one-text {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.page-one-title {
+  width: 724px;
+  height: 99px;
+  font: normal normal bold 42px/49px Barlow;
+  color: #0d0c1d;
+  align-items: flex-start;
+}
+.page-one-paragraph {
+  margin-top: 24px;
+  width: 576px;
+  height: 88px;
+  font: normal normal normal 20px/32px Barlow;
+}
+.two-icon {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.page-one-picture {
+  width: 581px;
+  height: 665px;
+}
+
+.line-two {
+  width: 100%;
+  border-bottom: 0.5px solid black;
+  opacity: 0.5;
+}
+
+.page-three-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 812px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.page-three-logo {
+  width: 103px;
+  height: 21px;
+  margin-top: 180px;
+}
+.page-three-title {
+  width: 734px;
+  height: 99px;
+  margin-top: 20px;
+  font: normal normal bold 42px/49px Barlow;
+}
+.three-titles {
+  width: 100%;
+  max-width: 1200px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.three-titles-first {
+  width: 455px;
+  font: normal normal bold 20px/28px Barlow;
+}
+.three-titles-second {
+  width: 455px;
+  font: normal normal bold 20px/28px Barlow;
+}
+.three-titles-third {
+  width: 455px;
+  font: normal normal bold 20px/28px Barlow;
+}
+.three-paragraphs {
+  width: 100%;
+  max-width: 1200px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.three-paragraphs-first {
+  width: 455px;
+  font: normal normal normal 20px/28px Barlow;
+}
+.three-paragraphs-second {
+  width: 455px;
+  font: normal normal normal 20px/28px Barlow;
+}
+.three-paragraphs-third {
+  width: 455px;
+  font: normal normal normal 20px/28px Barlow;
+}
+
+.page-four-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 854px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page-four-image {
+  width: 952px;
+  height: 853px;
+}
+.page-four-text {
+  width: 968px;
+  height: 853px;
+  background: #f4e5e2;
+}
+.page-four-title {
+  width: 576px;
+  height: 135px;
+  margin-top: 256px;
+  font: normal normal bold 57px/67px Barlow;
+}
+
+.page-four-paragraph {
+  font: normal normal normal 20px/28px Barlow;
+  margin-top: 24px;
+  width: 560px;
+  height: 108px;
+}
+.learn-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  width: 221px;
+  height: 54px;
+  justify-content: center;
+  background-color: #008aff;
+  font-size: 700;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.page-five-background {
+  height: 1303px;
+  background-color: black;
+  margin: 0 auto;
+  background-size: cover;
+}
+.page-five-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page-five-intro {
+  padding-top: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  justify-content: space-between;
+}
+
+.page-five-title {
+  width: 275px;
+  height: 68px;
+  font: normal normal bold 57px/67px Barlow;
+  color: white;
+}
+.page-five-p-btn {
+  display: flex;
+  flex-direction: column;
+}
+.page-five-text {
+  width: 724px;
+  height: 216px;
+  font: normal normal normal 20px/32px Barlow;
+  color: white;
+}
+
+.three-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 136px;
+  gap: 45px;
+}
+
+.box {
+  width: 467px;
+  height: 398px;
+  border: 2px solid #ffffff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.box-title {
+  margin-top: 59px;
+  margin-left: 59px;
+  width: 200px;
+  height: 31px;
+  font: normal normal 600 26px/28px Barlow;
+}
+
+.box-paragraph {
+  width: 347px;
+  height: 164px;
+  padding-left: 59px;
+  padding-right: 59px;
+  padding-top: 24px;
 }
