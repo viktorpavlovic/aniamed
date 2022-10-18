@@ -262,11 +262,13 @@
 }
 .page-four-title {
   font: normal normal bold 57px/67px Barlow;
+  padding-left: 80px;
 }
 
 .page-four-paragraph {
   font: normal normal normal 20px/28px Barlow;
   margin-top: 24px;
+  padding-left: 80px;
 }
 .learn-button {
   display: flex;
@@ -281,8 +283,10 @@
   border: none;
   border-radius: 5px;
 }
+.btn-page-four {
+  padding-left: 80px;
+}
 .page-five-background {
-  height: 1303px;
   background-color: black;
   margin: 0 auto;
   background-size: cover;
@@ -297,23 +301,19 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-
   justify-content: space-between;
 }
 
 .page-five-title {
-  width: 275px;
-  height: 68px;
   font: normal normal bold 57px/67px Barlow;
   color: white;
 }
 .page-five-p-btn {
+  padding-left: 160px;
   display: flex;
   flex-direction: column;
 }
 .page-five-text {
-  width: 724px;
-  height: 216px;
   font: normal normal normal 20px/32px Barlow;
   color: white;
 }
@@ -325,37 +325,28 @@
   align-items: flex-start;
   margin-top: 136px;
   gap: 45px;
+  padding-bottom: 200px;
 }
 
 .box {
-  width: 467px;
-  height: 398px;
   border: 2px solid #ffffff;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 44px;
 }
 .box-title {
   margin-top: 59px;
-  margin-left: 59px;
-  width: 200px;
-  height: 31px;
   font: normal normal 600 26px/28px Barlow;
 }
 
 .box-paragraph {
-  width: 347px;
-  height: 164px;
-  padding-left: 59px;
-  padding-right: 59px;
   padding-top: 24px;
   font: normal normal normal 20px/28px Barlow;
 }
 .box-icon {
-  padding-right: 59px;
   padding-top: 54px;
-  padding-left: 59px;
   width: 25px;
   height: 7px;
 }
@@ -363,14 +354,13 @@
 .visit-content {
   width: 100%;
   max-width: 1200px;
-  height: 550px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding-bottom: 150px;
 }
 .visit-title {
-  width: 900px;
-  height: 135px;
+  max-width: 900px;
   margin-top: 160px;
   font: normal normal bold 57px/67px Barlow;
 }
@@ -388,6 +378,10 @@
   border: none;
   border-radius: 5px;
 }
+
+/* Middle content */
+/* First */
+
 .first-middle-content {
   width: 100%;
   max-width: 1200px;
@@ -400,7 +394,6 @@
 }
 
 .doctor-img {
-  width: 576px;
   height: 300px;
 }
 .date {
@@ -409,16 +402,21 @@
   font: normal normal bold 57px/67px Barlow;
 }
 .month-and-year {
-  width: 73px;
-  height: 34px;
   font: normal normal bold 14px/17px Barlow;
 }
 
 .first-middle-text {
-  width: 576px;
-  height: 82px;
   font: normal normal bold 32px/44px Barlow;
 }
+.date-and-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 85px;
+}
+
+/* Second */
+
 .second-middle-content {
   width: 100%;
   max-width: 1200px;
@@ -427,12 +425,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 32px;
+}
+.date-month-year-second {
+  display: flex;
+  flex-direction: row;
+  gap: 85px;
 }
 .baby-img {
-  width: 576px;
   height: 300px;
 }
-.second-middle-title-text {
-  display: flex;
-  flex-direction: column;
+.second-middle-tittle {
+  font: normal normal bold 32px/44px Barlow;
+}
+.second-middle-paragraph {
+  font: normal normal normal 16px/26px Barlow;
+  padding-top: 120px;
 }
