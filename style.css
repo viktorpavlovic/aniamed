@@ -159,7 +159,7 @@
   display: flex;
   flex-direction: column;
   max-width: 700px;
-  padding-top: 85px;
+  padding-top: 60px;
 }
 .page-one-title {
   font: normal normal bold 42px/49px Barlow;
@@ -190,6 +190,8 @@
 .row {
   display: flex;
   flex-direction: row;
+  font: normal normal bold 20px/28px Barlow;
+  gap: 10px;
 }
 
 .line-two {
@@ -197,14 +199,14 @@
   border-bottom: 0.5px solid black;
   opacity: 0.5;
 }
-
 .page-three-content {
   max-width: 1200px;
   margin: 0 auto;
-  height: 812px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 180px;
 }
 .page-three-logo {
   width: 103px;
@@ -214,6 +216,7 @@
   margin-top: 20px;
   font: normal normal bold 42px/49px Barlow;
 }
+
 .three-titles {
   display: flex;
   flex-direction: row;
@@ -221,47 +224,49 @@
   margin-top: 60px;
   justify-content: space-between;
   gap: 30px;
+  font: normal normal normal 20px/28px Barlow;
 }
 .three-titles-content {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 .three-titles-content > img {
   width: 20px;
   height: 20px;
+}
+.three-paragraph {
+  font: normal normal normal 20px/28px Barlow;
 }
 
 .page-four-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  height: 854px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .page-four-image {
-  width: 952px;
+  display: block;
+  max-width: 600px;
   height: 853px;
 }
 .page-four-text {
-  width: 968px;
-  height: 853px;
   background: #f4e5e2;
+  height: 853px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .page-four-title {
-  width: 576px;
-  height: 135px;
-  margin-top: 256px;
   font: normal normal bold 57px/67px Barlow;
 }
 
 .page-four-paragraph {
   font: normal normal normal 20px/28px Barlow;
   margin-top: 24px;
-  width: 560px;
-  height: 108px;
 }
 .learn-button {
   display: flex;
@@ -272,7 +277,6 @@
   height: 54px;
   justify-content: center;
   background-color: #008aff;
-  font-size: 700;
   color: #ffffff;
   border: none;
   border-radius: 5px;
