@@ -131,6 +131,9 @@
   font: 300;
   color: white;
   transform: rotate(270deg);
+  position: absolute;
+  right: 0px;
+  top: 500px;
 }
 .app-play-icon {
   width: 100%;
@@ -416,16 +419,21 @@
 }
 
 /* Second */
+.second-middle-background {
+  width: 100%;
+  background-color: #f8f8f8;
+  height: 500px;
+}
 
 .second-middle-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 32px;
+  padding-top: 80px;
 }
 .date-month-year-second {
   display: flex;
@@ -531,6 +539,10 @@
 }
 
 /* footer */
+.footer-background {
+  width: 100%;
+  background-color: #f8f8f8;
+}
 
 .footer-content {
   width: 100%;
@@ -540,7 +552,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #f8f8f8;
+
   justify-content: space-between;
 }
 
@@ -592,7 +604,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #f8f8f8;
   justify-content: space-between;
   font: normal normal normal 14px/20px Barlow;
 }
